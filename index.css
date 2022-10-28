@@ -1,0 +1,166 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Inter;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  height: 150px;
+  width: 100vw;
+  background: url(./images/background.png);
+  background-color: #222222;
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header > h1 {
+  font-size: 43px;
+  font-weight: 800;
+  letter-spacing: -0.045em;
+
+  margin: 0;
+  padding-left: 44px;
+}
+
+.header > a > h5 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+
+  margin: 0;
+  cursor: pointer;
+  padding-right: 44px;
+}
+a {
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+#searchbar {
+  display: flex;
+  justify-content: center;
+  border-radius: 0px;
+  margin-top: -18px;
+  width: 80vw;
+}
+
+#search {
+  width: 100%;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+  border: 1px solid #d1d5db;
+  background-image: url(./images/search.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 10px;
+  text-indent: 25px;
+  color: #6b7280;
+  padding: 9px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#search-butt {
+  width: 120px;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+  border: 1px solid #d1d5db;
+  color: #374151;
+  background: #f9fafb;
+  cursor: pointer;
+
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25vh;
+}
+
+.placeholder > img {
+  width: 70px;
+}
+
+.placeholder > p {
+  color: #dfdddd;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.no-results {
+  width: 320px;
+  text-align: center;
+}
+
+.placeholder > a > p > span {
+  color: #363636;
+  font-size: 14px;
+  font-weight: 700;
+  padding-left: 5px;
+}
+
+.bot-par {
+  margin: 0;
+  cursor: pointer;
+  display: flex;
+}
+
+.movie-card {
+  display: flex;
+  padding: 44px;
+}
+
+.poster {
+  width: 100px;
+}
+
+.first-row,
+.second-row {
+  display: flex;
+}
+
+.watchlist-par > button {
+  cursor: pointer;
+}
+
+.watchlist-butt {
+  width: 16px;
+  height: 16px;
+  background-position: center;
+  border: none;
+  background-color: #ffffff;
+}
+
+.plus {
+  background-image: url("./images/plus.png");
+}
+
+.minus {
+  background-image: url("./images/minus.png");
+}
