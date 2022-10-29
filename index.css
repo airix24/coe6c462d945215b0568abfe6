@@ -14,17 +14,23 @@ body {
   background: url(./images/background.png);
   background-color: #222222;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.header-content {
   color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 50vw;
+  min-width: 400px;
 }
 
 .header > h1 {
   font-size: 43px;
   font-weight: 800;
   letter-spacing: -0.045em;
-
   margin: 0;
   padding-left: 44px;
 }
@@ -64,6 +70,7 @@ a:active {
   border-radius: 0px;
   margin-top: -18px;
   width: 80vw;
+  max-width: 650px;
 }
 
 #search {
@@ -141,6 +148,7 @@ a:active {
 .movie-card {
   display: flex;
   padding: 35px 44px;
+  max-width: 550px;
 }
 
 .poster {
