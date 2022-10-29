@@ -44,6 +44,7 @@ body {
   cursor: pointer;
   padding-right: 44px;
 }
+
 a {
   color: white;
 }
@@ -58,10 +59,12 @@ a:visited {
 
 a:hover {
   text-decoration: none;
+  opacity: 0.8;
 }
 
 a:active {
   text-decoration: none;
+  opacity: 0.6;
 }
 
 #searchbar {
